@@ -15,7 +15,7 @@ This repository contains a script for calculating the local interaction score of
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/local-interaction-score.git
+   git clone https://github.com/flyark/local-interaction-score.git
    ```
    
 2. Navigate to the repository directory:
