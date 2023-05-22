@@ -4,10 +4,9 @@ This Python program calculates and saves the local interaction scores from Colab
 
 ## Features
 
-- Extraction of the blue channel from PAE files generated from ColabFold.
-- Image cropping to isolate specific regions.
+- Extraction of the blue channel from PAE maps generated from ColabFold.
+- Image cropping to isolate Rank_1, Rank_2, Rank_3, Rank_4, and Rank_5 regions from PAE map.
 - Calculation of interaction scores based on blue color distribution in different quadrants of the image.
-- Multi-threading to speed up the image processing tasks.
 - Exportation of interaction scores to an Excel file, with individual sheets for summary, grouped, and total results.
 
 ## Usage
