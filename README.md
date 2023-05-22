@@ -16,22 +16,24 @@ This repository contains a script for calculating the local interaction score of
 
    ```shell
    git clone https://github.com/your-username/local-interaction-score.git
-
+   ```
+   
 2. Navigate to the repository directory:
 
-  ```shell
+   ```shell
    cd local-interaction-score
-
+   ```
 3. Install the required dependencies:
 
-  ```shell
-  pip install -r requirements.txt
-
+   ```shell
+   pip install -r requirements.txt
+   ```
 4. Execute the script with the desired input folder and output Excel file:
 
-  ```shell
-  python local_interaction_score.py /path/to/input/folder /path/to/output/excel.xlsx
-
+   ```shell
+   python local_interaction_score.py /path/to/input/folder /path/to/output/excel.xlsx
+   ```
+   
 Replace /path/to/input/folder with the actual path to the folder containing the input images, and replace /path/to/output/excel.xlsx with the desired path for the output Excel file.
 
 Check the generated Excel file containing the local interaction scores and analysis.
