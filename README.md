@@ -1,6 +1,6 @@
 # Local Interaction Score
 
-This Python program calculates and saves the local interaction scores from ColabFold-derived Predicted Aligned Error (PAE) result images. It processes PAE result images to evaluate the level of interaction in different quadrants of each image, based on the distribution of the blue color channel. The scores are then exported into an Excel file.
+This Python script calculates and saves the local interaction scores from ColabFold-derived Predicted Aligned Error (PAE) result images. It processes PAE result images to evaluate the level of interaction in different quadrants of each image, based on the distribution of the blue color channel. The scores are then exported into an Excel file.
 
 ## Features
 
