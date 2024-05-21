@@ -1,10 +1,10 @@
 # Calculation of Local Interaction Score from PAE images
 
-This Python script calculates and saves the local interaction scores from ColabFold-derived Predicted Aligned Error (PAE) result images instead of PAE value-containing json files. It processes PAE result images to evaluate the level of interaction in different quadrants of each image, based on the distribution of the blue color channel. The scores are then exported into an Excel file.
+This Python script calculates and saves the Local Interaction Score (LIS) from ColabFold-derived Predicted Aligned Error (PAE) result images instead of PAE value-containing json files. It processes PAE result images to evaluate the level of interaction in different quadrants of each image, based on the distribution of the blue color channel. The scores are then exported into an Excel file. This is not accurate as much as LIS calculation based on PAE matrix json (https://github.com/flyark/AFM-LIS)
 
 ## Features
 
-- Extraction of the blue channel from PAE maps generated from ColabFold.
+- Extraction of the blue channel from PAE maps generated from **ColabFold**.
 - Image cropping to isolate Rank_1, Rank_2, Rank_3, Rank_4, and Rank_5 regions from PAE map.
 - Calculation of interaction scores based on blue color distribution in different quadrants of the image.
 - Exportation of interaction scores to an Excel file, with individual sheets for summary, grouped, and total results.
