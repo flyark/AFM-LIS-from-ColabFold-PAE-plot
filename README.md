@@ -20,7 +20,7 @@ This Python script calculates and saves the Local Interaction Score (LIS) from C
 2. Navigate to the repository directory:
 
    ```shell
-   cd local-interaction-score
+   cd local_interaction_score
    ```
 3. Install the required dependencies:
 
