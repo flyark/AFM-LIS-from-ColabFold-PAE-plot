@@ -22,7 +22,7 @@ This Python script calculates and saves the Local Interaction Score (LIS) from C
    ```shell
    cd local_interaction_score
    ```
-3. Install the required dependencies ideally certain environment (conda or python). 
+3. Install the required dependencies (OpenCV, NumPy, pandas, Pillow) ideally in certain environment (conda or python). 
 
 4. Execute the script with the desired input folder and output Excel file:
 
